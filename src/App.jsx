@@ -2,13 +2,10 @@ import { useState } from 'react'
 import './App.css'
 import MyCard from "./components/MyCard";
 import MyAccount from "./components/MyAccount";
-import Myheader from "./components/Myheader";
 import logoTossBlue from '../public/logo-toss-blue.png'
 import logoKakao from '../public/logo-kakao.png'
-import junahimCI from '../public/junahim_CI.png'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <div className="App">
